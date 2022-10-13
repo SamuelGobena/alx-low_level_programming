@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -s ccode
+gcc -s $CFILE

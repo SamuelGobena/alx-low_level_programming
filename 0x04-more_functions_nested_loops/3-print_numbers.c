@@ -7,17 +7,9 @@
  */
 void print_numbers(void)
 {
-	int e;
+	int i;
 
-	for (e = 48; e < 58; e++)
-	{
-		if (e != 50)
-		{
-			if (e != 52)
-			{
-				putchar(e);
-			}
-		}
-	}
-	putchar('\n');
+	for (i = 0; i <= 9; i++)
+		_putchar(i + '0');
+	_putchar('\n');
 }

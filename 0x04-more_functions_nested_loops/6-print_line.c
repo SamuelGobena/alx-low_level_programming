@@ -6,7 +6,7 @@
  * @a: parameter
  * Return: nothing
  */
-void print_line(int n)
+void print_line(int a)
 {
 	while (a-- > 0)
 	{

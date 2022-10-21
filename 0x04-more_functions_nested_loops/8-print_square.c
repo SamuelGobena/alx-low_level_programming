@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - check for digit from (0 through 9)
+ * print_square - check for digit from 0 through 9
  * @size: size of variable
- * 
  * Return: Always 0.
  */
 void print_square(int size)
@@ -12,17 +11,17 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (x = 1; x < = size; x++)
+		for (x = 1; x <= size; x++)
 		{
 			for (y = 1; y <= size; y++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 	else
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 }

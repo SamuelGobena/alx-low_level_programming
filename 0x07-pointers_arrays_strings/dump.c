@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
-/**
- * _strspn - a function that gets the length.
+/***
+ * _strspn - a function that gets the length of a prefix substring.
  * @s: The string to be copied
  * @accept: The prefix to be measured
- * Return: value of bytes
+ *
+ * Returns: number of bytes in the initial segment of s
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -26,8 +26,8 @@ unsigned int _strspn(char *s, char *accept)
 				point = 1;
 			}
 		}
-		if (point == 0)
-			return (value);
+			if (point == 0)
+				return (value);
 	}
 	return (value);
 }

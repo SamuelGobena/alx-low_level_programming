@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int line, total, change, num;
-	int coins[] = {25,10,5,2,1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	line = total = change = num = 0;
 
